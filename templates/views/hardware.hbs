@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNASS | Hardware</title>
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- style css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Responsive-->
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- fevicon -->
+  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <!-- Tweaks for older IEs-->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+  <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/hardware.css">
+       <script>
+       let cartItems = [];
+
+function addToCart(productName, price) {
+    cartItems.push({ productName, price });
+    localStorage.setItem('cartItems', JSON.stringify(cartItems));
+    updateCartDisplay();
+}
+</script>
+</head>
+<body>
+    <div class=" col-md-2 col-sm-3">
+               <div class="logo">
+                  <a href="/"><span>SNASS</span></a>
+                  <a class="cart-link col-md-8" href="/cart">Cart</a>
+               </div>
+            </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/hardware/2IN1 battery spray pump 18L.jpg" alt="2 In 1">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">2 in 1 Battery Cum Manual Sprayer(15L) </h2>
+                <p class="product-description">
+                    Features
+                        Brand Name :	Agrostar
+                        Type of Product :	2 in 1 Battery Cum Manual Sprayer
+                        Voltage :	12 V
+                        Tank Capacity :	15L-
+                        Tank Material :	HDPE
+                        Color :	Orage/Red
+                </p>
+                <p class="product-price">Rs. 3500</p>
+                <button class="product-btn" onclick="addToCart('2 in 1 Battery Cum Manual Sprayer', 3500)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/hardware/single motor sprayer pump.jpg" alt="Single motor ">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Single Motor Battery operated rechargable Sprayer</h2>
+                <p class="product-description">
+                    Features
+                        Brand Name :	Agrostar
+                        Type of Product :	Single Motor Battery operated rechargable Sprayer
+                        Voltage :	12V*12Amp
+                        Tank Capacity :	15L-
+                        Tank Material :	HDPE
+                        Color :	Orage/Red
+                </p>
+                <p class="product-price">Rs. 3400</p>
+                <button class="product-btn" onclick="addToCart('Single Motor Battery operated rechargable Sprayer',3400)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/hardware/Motorised Knapsack Power Sprayer 15L-HTS.jpg" alt="Axe ">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Petrol operated 15L sprayer pump</h2>
+                <p class="product-description">
+                    Features
+                    Brand Name :	PAD Corp
+                    Type of Product :	Petrol operated 15L sprayer pump
+                    Weight : 8 Kg
+                    Engine: Petrol
+                    Tank Material :	HDPE
+                    Capacity : 15L 
+                </p>
+                <p class="product-price">Rs. 8000</p>
+                <button class="product-btn" onclick="addToCart('Pad Petrol operated 15L sprayer pump',8000)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/hardware/agriculture-hand-pickaxe.jpg" alt="Pickaxe ">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">HUKUMS_AxeSilver/Yellow</h2>
+                <p class="product-description">
+                    Features
+                        Brand Name :	HUKUMS
+                        Model No :	HUKUMS_AxeSilver/Yellow
+                        Type of Product :	Axe
+                        Material :	Steel
+                        Usage :	Professional
+                        Handle Material :	Wood
+                </p>
+                <p class="product-price">Rs. 1000</p>
+                <button class="product-btn" onclick="addToCart('HUKUMS_AxeSilver/Yellow',1000)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/hardware/Axe-Timber Harvesting.jpg" alt="Axe ">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Tata Hand Axe</h2>
+                <p class="product-description">
+                    Features
+                    Brand Name :	TATA
+                    Type of Product :	Hand Axe
+                    Weight :	1 Kg
+                    Handle Material :	Fiberglass
+                    Material :	Vanadium Steel
+                    Usage :	Home,Professional & Farming
+                    
+                </p>
+                <p class="product-price">Rs. 1200</p>
+                <button class="product-btn" onclick="addToCart('Tata Hand Axe',1200)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/hardware/Hand Hoe Three Prong Handle 30cm.jpg" alt="hand Hoe Three Prong  ">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Tata Hand Hoe Three Prong</h2>
+                <p class="product-description">
+                    Features:-
+                    Brand Name :	TATA
+                    Type of Product :	Hand Hoe Three Prong 
+                    Weight :	2 Kg
+                    Handle Material :	
+                    Material :	Vanadium Steel
+                    Usage :	Home,Professional & Farming
+                    
+                </p>
+                <p class="product-price">Rs. 1200</p>
+                <button class="product-btn" onclick="addToCart('Tata Hand Hoe Three Prong',1200)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/hardware/Iron Spade agriculture-fawda.jpg" alt="Axe ">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Tata Fawda</h2>
+                <p class="product-description">
+                    Features
+                    Brand Name :	TATA
+                    Type of Product :	Fawda
+                    Weight :	1 Kg
+                    Handle Material :	Wood
+                    Material :	Vanadium Steel
+                    Usage :	Home,Professional & Farming
+                    
+                </p>
+                <p class="product-price">Rs. 1200</p>
+                <button class="product-btn" onclick="addToCart('Tata Fawda',1200)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/hardware/Mini Khurpa.jpg" alt="Axe ">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Tata Khurpa</h2>
+                <p class="product-description">
+                    Features
+                    Brand Name :	TATA
+                    Type of Product :	Khurpa
+                    Weight :	1 Kg
+                    Handle Material :	Wood
+                    Material :	Vanadium Steel
+                    Usage :	Home,Professional & Farming
+                    
+                </p>
+                <p class="product-price">Rs. 200</p>
+                <button class="product-btn" onclick="addToCart('Tata Khurpa',200)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+               <div class="container">
+                  <div class="row d_flex">
+                     <div class="col-md-8">
+                        <p>© 2023 All Rights Reserved. Design by <a href="/"> SNASS </a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            
+</body>
+</html>

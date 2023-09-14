@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SNASS | Crop Nutrition</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- style css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Responsive-->
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- fevicon -->
+  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <!-- Tweaks for older IEs-->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+  <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/cropnutrition.css">
+<script>
+    let cartItems = [];
+
+function addToCart(productName, price) {
+    cartItems.push({ productName, price });
+    localStorage.setItem('cartItems', JSON.stringify(cartItems));
+    updateCartDisplay();
+}
+</script>
+<!-- Rest of your HTML code remains unchanged -->
+</head>
+<body>
+    <div class=" col-md-2 col-sm-3">
+               <div class="logo">
+                  <a href="/"><span>SNASS</span></a>
+                  <a class="cart-link col-md-8" href="/cart">Cart</a>
+               </div>
+            </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/Crop Nutrition/All star 250gm.jpg" alt="All Star">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">All Star</h2>
+                <p class="product-description">
+                    <br> Features :- 
+                    <br> Brand Name :	Agrostar
+                    <br> Type of Product :	Crop Nutrition
+                    <br> Contents : Humic Acid (25%), Fulvic Acid 25%, Amino 25%, Seaweed 25%.
+                    <br> Benefits:
+                    <br> Mode Of Operation : Spray/Drenching.
+                    <br> Applicable Crops : All Crops.
+                </p>
+                <p class="product-price">Rs. 350</p>
+                <!-- Example modification for the first product -->
+                <button class="product-btn" onclick="addToCart('All Star', 350),/cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/Crop Nutrition/Biovita-X.JPG" alt="Biovita-X">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Biovita-X</h2>
+                <p class="product-description">
+                    <br> Features :- 
+                    <br> Brand Name :	Pi Agro Industries 
+                    <br> Type of Product :	Crop Nutrition
+                    <br> Contents : Humic Acid (25%), Fulvic Acid 25%, Seaweed 50%.
+                    <br> Benefits: Plant Booster as well as gives shine for plants.
+                    <br> Mode Of Operation : 400ml/acre Spray.
+                    <br> Applicable Crops : All Crops.
+                </p>
+                <p class="product-price">Rs. 350</p>
+                <!-- Example modification for the first product -->
+                <button class="product-btn" onclick="addToCart('Biovita-X', 350)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/Crop Nutrition/Faster Biostimulent.jpg" alt="Faster">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Faster</h2>
+                <p class="product-description">
+                    <br> Features :- 
+                    <br> Brand Name :	Agrostar
+                    <br> Type of Product :	Crop Nutrition
+                    <br> Contents : Bio-Stimulents.
+                    <br> Benefits:
+                    <br> Mode Of Operation : Spray/Drenching.
+                    <br> Applicable Crops : All Crops.
+                </p>
+                <p class="product-price">Rs. 600</p>
+                <!-- Example modification for the first product -->
+                <button class="product-btn" onclick="addToCart('Faster', 600)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/Crop Nutrition/New Florence(biostimulents)500ml.jpg" alt="Florence">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Florence</h2>
+                <p class="product-description">
+                    <br> Features :- 
+                    <br> Brand Name :	Agrostar
+                    <br> Type of Product :	Crop Nutrition
+                    <br> Contents : Protein Hydrolasate, Amino 25%, Seaweed 25%.
+                    <br> Benefits: more flowering.
+                    <br> Mode Of Operation : Spray/Drenching.
+                    <br> Applicable Crops : All Crops.
+                </p>
+                <p class="product-price">Rs. 500</p>
+                <button class="product-btn" onclick="addToCart('Florence', 500)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/Crop Nutrition/Peak Booster.jpg" alt="Peak Booster ">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Peak Booster </h2>
+                <p class="product-description">
+                    <br> Features :- 
+                    <br> Brand Name :	Agrostar
+                    <br> Type of Product :	Crop Nutrition
+                    <br> Contents : Tricontanol 0.0001% Ew
+                    <br> Benefits: more flowering.
+                    <br> Mode Of Operation : Spray/Drenching.
+                    <br> Applicable Crops : All Crops.
+                </p>
+                <p class="product-price">Rs. 250</p>
+                <button class="product-btn" onclick="addToCart('Peak Booster', 250)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/Crop Nutrition/Power Gel .jpg" alt="Power Gel">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Power Gel</h2>
+                <p class="product-description">
+                    <br> Features :- 
+                    <br> Brand Name :	Agrostar
+                    <br> Type of Product :	Crop Nutrition
+                    <br> Contents : humic 25%, Fulvic 25%, Amino 25%, Seaweed 25%.
+                    <br> Benefits: Rigorous Growth
+                    <br> Mode Of Operation : Spray/Drenching.
+                    <br> Applicable Crops : All Crops.
+                </p>
+                <p class="product-price">Rs. 650</p>
+                <button class="product-btn" onclick="addToCart('Power Gel', 650)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/Crop Nutrition/Root Power.jpg" alt="Root Power">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Root Power</h2>
+                <p class="product-description">
+                    <br> Features :- 
+                    <br> Brand Name :	Agrostar
+                    <br> Type of Product :	Crop Nutrition
+                    <br> Contents : Humic 25, Seaweed 25%, Amino 25%, Seaweed 25%.
+                    <br> Benefits: Unlocks More roots, Greenery 
+                    <br> Mode Of Operation : Spray/Drenching.
+                    <br> Applicable Crops : All Crops.
+                </p>
+                <p class="product-price">Rs. 500</p>
+                <button class="product-btn" onclick="addToCart('Root Power', 500)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/Crop Nutrition/Powergrow Humic Power Nx.jpg" alt="Humic Power">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Humic Power</h2>
+                <p class="product-description">
+                    <br> Features :- 
+                    <br> Brand Name :	Agrostar
+                    <br> Type of Product :	Crop Nutrition
+                    <br> Contents : Humic 90.
+                    <br> Benefits: Unlocks More roots, Greenery 
+                    <br> Mode Of Operation : Spray/Drenching.
+                    <br> Applicable Crops : All Crops.
+                </p>
+                <p class="product-price">Rs. 350</p>
+                <button class="product-btn" onclick="addToCart('Humic Power', 350)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/Crop Nutrition/Tata Bahaar .jpg" alt="Root Power">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Tata Bahaar</h2>
+                <p class="product-description">
+                    <br> Features :- 
+                    <br> Brand Name :	Agrostar
+                    <br> Type of Product :	Crop Nutrition
+                    <br> Contents : Humic 25, Seaweed 25%, Amino 25%, Seaweed 25%.
+                    <br> Benefits: Unlocks More roots, Greenery 
+                    <br> Mode Of Operation : Spray/Drenching.
+                    <br> Applicable Crops : All Crops.
+                </p>
+                <p class="product-price">Rs. 500</p>
+                <button class="product-btn" onclick="addToCart('Tata Bahaar', 500)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/Crop Nutrition/Pure Kelp (Seaweed Extract).jpg" alt="Root Power">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Pure Kelpr</h2>
+                <p class="product-description">
+                    <br> Features :- 
+                    <br> Brand Name :	Agrostar
+                    <br> Type of Product :	Crop Nutrition
+                    <br> Contents : Seaweed 25%.
+                    <br> Benefits: Unlocks More roots, Greenery 
+                    <br> Mode Of Operation : Spray/Drenching.
+                    <br> Applicable Crops : All Crops.
+                </p>
+                <p class="product-price">Rs. 500</p>
+                <button class="product-btn" onclick="addToCart('Pure Kelpr', 500)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/Crop Nutrition/Super Sero Nutripro Grade 2 - 250Gm.jpg" alt="Root Power">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Super Sero Nutripro</h2>
+                <p class="product-description">
+                    <br> Features :- 
+                    <br> Brand Name :	Agrostar
+                    <br> Type of Product :	Crop Nutrition
+                    <br> Contents : Seaweed 25%.
+                    <br> Benefits: Unlocks More roots, Greenery 
+                    <br> Mode Of Operation : Spray/Drenching.
+                    <br> Applicable Crops : All Crops.
+                </p>
+                <p class="product-price">Rs. 500</p>
+                <button class="product-btn" onclick="addToCart('Super Sero Nutripro', 500)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/Crop Nutrition/SuperSero Mh Nutripro Grade 2 -500gm.jpg" alt="Root Power">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Nutri Pro</h2>
+                <p class="product-description">
+                    <br> Features :- 
+                    <br> Brand Name :	Agrostar
+                    <br> Type of Product :	Crop Nutrition
+                    <br> Contents : ZN,B,Cu,Mn,Mo 12% 
+                    <br> Benefits: Unlocks More roots, Greenery 
+                    <br> Mode Of Operation : Spray/Drenching.
+                    <br> Applicable Crops : All Crops.
+                </p>
+                <p class="product-price">Rs. 500</p>
+                <button class="product-btn" onclick="addToCart('Nutri Pro', 500)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+               <div class="container">
+                  <div class="row d_flex">
+                     <div class="col-md-8">
+                        <p>© 2023 All Rights Reserved. Design by <a href="/"> SNASS </a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+</body>
+</html>

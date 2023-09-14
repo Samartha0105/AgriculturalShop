@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNASS | Seeds</title>
+    <!-- bootstrap css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- style css -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Responsive-->
+  <link rel="stylesheet" href="css/responsive.css">
+  <!-- fevicon -->
+  <link rel="icon" href="images/fevicon.png" type="image/gif" />
+  <!-- Tweaks for older IEs-->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+  <link rel="stylesheet" href="css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="css/seed.css">
+     <script>
+       let cartItems = [];
+
+function addToCart(productName, price) {
+    cartItems.push({ productName, price });
+    localStorage.setItem('cartItems', JSON.stringify(cartItems));
+    updateCartDisplay();
+}
+</script>
+</head>
+<body>
+    <div class=" col-md-2 col-sm-3">
+               <div class="logo">
+                  <a href="/"><span>SNASS</span></a>
+                  <a class="cart-link col-md-8" href="/cart">Cart</a>
+               </div>
+            </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/Seed/AGROSTAR PEARL COTTON SEEDS.JPG" alt="Pearl cotton Seed">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title"> Pearl Cotton Seed </h2>
+                <p class="product-description">
+                   <br> Features :-
+                    <br>    Brand Name :Agrostar
+                      <br>  Crop: Cotton
+                      <br> Weight:475gm
+                       <br> Suitable Soil Types: Under Irrigation
+                       <br> Season : Kharif 
+                        <br> Maturity: 155 days 
+                </p>
+                <p class="product-price">Rs. 849</p>
+                <button class="product-btn" onclick="addToCart('Pearl Cotton Seed', 849)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/Seed/EAGLE 335  SOYABEAN SEEDS.JPG" alt="Single motor ">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title"> Eagel Js 335 </h2>
+                <p class="product-description">
+                    <br> Features :-
+                    <br>    Brand Name : Eagle 
+                      <br>  Crop: SOYABEAN
+                      <br>  Weight: 30kg
+                       <br> Suitable Soil Types: Under Irrigation.
+                       <br> Season: Kharif
+                        <br> Maturity: 90 days 
+                </p>
+                <p class="product-price">Rs. 3400</p>
+                <button class="product-btn" onclick="addToCart('Eagel Js 335', 3400)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/Seed/JINDAL RED ONION SEED.JPG" alt="jindal red onion seed ">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Red Onion Seed</h2>
+                <p class="product-description">
+                    <br> Features :-
+                    <br>    Brand Name : Jindal
+                      <br>  Crop: ONION
+                      <br>  Weight: 500gm
+                       <br> Suitable Soil Types: Under Irrigation.
+                       <br> Season: Kharif/Rabbi
+                        <br> Maturity: 90 days 
+                </p>
+                <p class="product-price">Rs. 300</p>
+                <button class="product-btn" onclick="addToCart('Red Onion Seed',300)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/Seed/KDS 726 SOYABEAN SEEDS.JPG" alt="Phule sangam ">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">KDS 726 Phule Sangam Soyabean Seed</h2>
+                <p class="product-description">
+                    <br> Features :-
+                    <br>    Brand Name : Sundaram
+                      <br>  Crop: SOYABEAN
+                      <br>  Weight: 25kg
+                       <br> Suitable Soil Types: Under Irrigation.
+                       <br> Season: Kharif/Rabbi
+                        <br> Maturity: 120 days 
+                </p>
+                <p class="product-price">Rs. 3400</p>
+                <button class="product-btn" onclick="addToCart('KDS 726 Phule Sangam Soyabean Seed',3400)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/Seed/KDS 992 SOYABEAN SEEDS.JPG" alt="Phule Durva 992 ">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Phule Durva 992</h2>
+                <p class="product-description">
+                    <br> Features :-
+                    <br>    Brand Name : GreenLimca
+                      <br>  Crop: SOYABEAN
+                      <br>  Weight: 24kg
+                       <br> Suitable Soil Types: Under Irrigation.
+                       <br> Season: Kharif/Rabbi
+                        <br> Maturity: 120 days 
+                </p>
+                <p class="product-price">Rs. 3800</p>
+                <button class="product-btn" onclick="addToCart('Phule Durva 992',3800)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/Seed/LAAL TAAJ ONION SEED.JPG" alt="Phule Durva 992 ">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Laal Taaj</h2>
+                <p class="product-description">
+                    <br> Features :-
+                    <br>    Brand Name : Agrostar
+                      <br>  Crop: Onion
+                      <br>  Weight: 500gm
+                       <br> Suitable Soil Types: Under Irrigation.
+                       <br> Season: Kharif/Rabbi
+                        <br> Maturity: 120 days 
+                </p>
+                <p class="product-price">Rs. 800</p>
+                <button class="product-btn" onclick="addToCart('Laal Taaj',800)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/Seed/RASHI 779.JPG" alt="Rashi 779 ">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Rashi 779</h2>
+                <p class="product-description">
+                    <br> Features :-
+                    <br>    Brand Name : Rashi
+                      <br>  Crop: Cotton
+                      <br>  Weight: 475gm
+                       <br> Suitable Soil Types: Under Irrigation.
+                       <br> Season: Kharif
+                        <br> Maturity: 185 days 
+                </p>
+                <p class="product-price">Rs. 849</p>
+                <button class="product-btn" onclick="addToCart('Rashi 779',849)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/Seed/Rasi_659 COTTON SEEDS.JPG" alt="Rashi 659 ">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Rashi 659</h2>
+                <p class="product-description">
+                    <br> Features :-
+                    <br>    Brand Name : Rashi
+                      <br>  Crop: Cotton
+                      <br>  Weight: 475gm
+                       <br> Suitable Soil Types: Under Irrigation.
+                       <br> Season: Kharif
+                        <br> Maturity: 185 days 
+                </p>
+                <p class="product-price">Rs. 849</p>
+                <button class="product-btn" onclick="addToCart('Rashi 659', 849)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="product">
+            <div class="product-image">
+                <img src="images/Seed/US 7067 COTTON SEEDS.JPG" alt="Us 7067 Cotton Seed ">
+            </div>
+            <div class="product-info">
+                <h2 class="product-title">Us Agriseeds Us 7067 Cotton Seed</h2>
+                <p class="product-description">
+                    <br> Features :-
+                    <br>    Brand Name : Us Agriseeds
+                      <br>  Crop: Cotton
+                      <br>  Weight: 475gm
+                       <br> Suitable Soil Types: Under Irrigation.
+                       <br> Season: Kharif
+                        <br> Maturity: 165 days 
+                </p>
+                <p class="product-price">Rs. 849</p>
+                <button class="product-btn" onclick="addToCart('Us Agriseeds Us 7067 Cotton Seed',849)">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+               <div class="container">
+                  <div class="row d_flex">
+                     <div class="col-md-8">
+                        <p>© 2023 All Rights Reserved. Design by <a href="/"> SNASS </a></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+          
+</body>
+</html>
